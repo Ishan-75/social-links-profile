@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:  hsl(0, 0%, 8%);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      color: hsl(0, 0%, 100%);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background: hsl(0, 0%, 12%);
+    width: 288px;
+    height: 435px;
+    border-radius: 8px;
+}
+.profile img{
+    border-radius: 100%;
+    width: 68px;
+    height: 68px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.basic-info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.city{
+    font-size: 10px;
+    padding-top: 6px;
+    color: hsl(75, 94%, 57%);
+}
+.front-end-info{
+    font-size: 10px;
+    padding-top: 20px;
+}
+.sub-box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    row-gap: 10px;
+}
+.sub-box{
+    background: hsl(0, 0%, 20%);
+    color: white;
+    padding: 10px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sub-box p{
+    font-size: 12px;
+    text-align: center;
+}
+.sub-box:hover{
+    cursor: pointer;
+    background: hsl(75, 94%, 57%);
+    color: black;
+}
